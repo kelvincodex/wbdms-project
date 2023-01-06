@@ -6,3 +6,5 @@ Route::controller(\App\Http\Controllers\DashboardPageController::class)->group(f
     Route::get("/overview", "overview")->name("overview");
     Route::get("/register", "register")->name("register");
 });
+
+Route::prefix('user')->name('user.')->group(function(){});

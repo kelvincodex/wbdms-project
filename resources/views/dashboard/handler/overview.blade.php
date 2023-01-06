@@ -1,35 +1,6 @@
 @extends("layout.dash-layout")
 @section("content")
     <div class="page-content">
-        <div class="card radius-10">
-            <div class="card-body">
-                <div class="row align-items-center">
-                    <div class="col-md-3">
-                        <h5 class="mb-0 mb-md-0">Audience Overview</h5>
-                    </div>
-                    <div class="col-md-9">
-                        <form class="float-md-end">
-                            <div class="row row-cols-md-auto g-lg-3 align-items-center">
-                                <label for="inputFromDate" class="col-md-2 col-form-label text-md-end">From Date</label>
-                                <div class="col-md-4">
-                                    <input type="date" class="form-control" id="inputFromDate">
-                                </div>
-                                <label for="inputToDate" class="col-md-2 col-form-label text-md-end">To Date</label>
-                                <div class="col-md-4">
-                                    <input type="date" class="form-control" id="inputToDate">
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <hr>
-                <div class="chart-js-container3">
-                    <canvas id="chart5"></canvas>
-                </div>
-            </div>
-        </div>
-
-
         <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
             <div class="col">
                 <div class="card radius-10">
@@ -86,44 +57,6 @@
         </div>
         <!--end row-->
         <div class="row">
-            <div class="col-12 col-lg-12 col-xl-12 col-xxl-6 d-flex">
-                <div class="card radius-10 w-100">
-                    <div class="card-body">
-                        <div class="row row-cols-1 row-cols-md-2 g-3 align-items-center">
-                            <div class="col-lg-7 col-xl-7 col-xxl-8">
-                                <div class="chart-js-container4 p-4">
-                                    <div class="piechart-legend">
-                                        <h2 class="mb-1">68%</h2>
-                                        <h6 class="mb-0">Total Traffic</h6>
-                                    </div>
-                                    <canvas id="chart6"></canvas>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-xl-5 col-xxl-4">
-                                <div class="">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item border-0 d-flex align-items-center gap-2 bg-transparent">
-                                            <i class='bx bxs-circle text-white'></i>Organic (12%)</span>
-                                        </li>
-                                        <li class="list-group-item border-0 d-flex align-items-center gap-2 bg-transparent">
-                                            <i class='bx bxs-circle text-white text-opacity-75'></i><span>Direct (22%)</span>
-                                        </li>
-                                        <li class="list-group-item border-0 d-flex align-items-center gap-2 bg-transparent">
-                                            <i class='bx bxs-circle text-white text-opacity-50'></i><span>Referral (34%)</span>
-                                        </li>
-                                        <li class="list-group-item border-0 d-flex align-items-center gap-2 bg-transparent">
-                                            <i class='bx bxs-circle text-white text-opacity-25'></i><span>Others (18%)</span>
-                                        </li>
-                                        <li class="list-group-item border-0 d-flex align-items-center gap-2 bg-transparent">
-                                            <i class='bx bxs-circle text-white text-light-1'></i><span>Social (37%)</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="col-12 col-lg-12 col-xl-12 col-xxl-6 d-flex">
                 <div class="card radius-10 w-100">
                     <div class="card-body">
@@ -208,10 +141,122 @@
         <!--end row-->
         <div class="row row-cols-1 row-cols-md-1">
             <div class="col col-lg-8">
-                <div class="card radius-10">
-                    <div class="card-body">
-                        <div id="geographic-map"></div>
+                <div class="container py-2">
+                    <!-- timeline item 1 -->
+                    <div class="row">
+                        <!-- timeline item 1 left dot -->
+                        <div class="col-auto text-center flex-column d-none d-sm-flex">
+                            <div class="row h-50">
+                                <div class="col">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <h5 class="m-2">
+                            <span class="badge rounded-pill bg-light border">&nbsp;</span>
+                        </h5>
+                            <div class="row h-50">
+                                <div class="col border-end">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <!-- timeline item 1 event content -->
+                        <div class="col py-2">
+                            <div class="card radius-15">
+                                <div class="card-body">
+                                    <div class="float-end">Mon, Jan 9th 2020 7:00 AM</div>
+                                    <h4 class="card-title text-white">Day 1 Orientation</h4>
+                                    <p class="card-text">Welcome to the campus, introduction and get started with the tour.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!--/row-->
+                    <!-- timeline item 2 -->
+                    <div class="row">
+                        <div class="col-auto text-center flex-column d-none d-sm-flex">
+                            <div class="row h-50">
+                                <div class="col border-end">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <h5 class="m-2">
+                            <span class="badge rounded-pill bg-light">&nbsp;</span>
+                        </h5>
+                            <div class="row h-50">
+                                <div class="col border-end">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="col py-2">
+                            <div class="card border-light shadow radius-15">
+                                <div class="card-body">
+                                    <div class="float-end">Tue, Jan 10th 2019 8:30 AM</div>
+                                    <h4 class="card-title text-white">Day 2 Sessions</h4>
+                                    <p class="card-text">Sign-up for the lessons and speakers that coincide with your course syllabus. Meet and greet with instructors.</p>
+                                    <button class="btn btn-sm btn-light" type="button" data-bs-target="#t2_details" data-bs-toggle="collapse">Show Details ▼</button>
+                                    <div class="collapse border" id="t2_details">
+                                        <div class="p-2 text-monospace">
+                                            <div>08:30 - 09:00 Breakfast in CR 2A</div>
+                                            <div>09:00 - 10:30 Live sessions in CR 3</div>
+                                            <div>10:30 - 10:45 Break</div>
+                                            <div>10:45 - 12:00 Live sessions in CR 3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/row-->
+                    <!-- timeline item 3 -->
+                    <div class="row">
+                        <div class="col-auto text-center flex-column d-none d-sm-flex">
+                            <div class="row h-50">
+                                <div class="col border-end">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <h5 class="m-2">
+                            <span class="badge rounded-pill bg-light border">&nbsp;</span>
+                        </h5>
+                            <div class="row h-50">
+                                <div class="col border-end">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="col py-2">
+                            <div class="card radius-15">
+                                <div class="card-body">
+                                    <div class="float-end">Wed, Jan 11th 2019 8:30 AM</div>
+                                    <h4 class="card-title">Day 3 Sessions</h4>
+                                    <p>Shoreditch vegan artisan Helvetica. Tattooed Codeply Echo Park Godard kogi, next level irony ennui twee squid fap selvage. Meggings flannel Brooklyn literally small batch, mumblecore PBR try-hard kale chips. Brooklyn vinyl lumbersexual bicycle rights, viral fap cronut leggings squid chillwave pickled gentrify mustache. 3 wolf moon hashtag church-key Odd Future. Austin messenger bag normcore, Helvetica Williamsburg sartorial tote bag distillery Portland before they sold out gastropub taxidermy Vice.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/row-->
+                    <!-- timeline item 4 -->
+                    <div class="row">
+                        <div class="col-auto text-center flex-column d-none d-sm-flex">
+                            <div class="row h-50">
+                                <div class="col border-end">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <h5 class="m-2">
+                            <span class="badge rounded-pill bg-light border">&nbsp;</span>
+                        </h5>
+                            <div class="row h-50">
+                                <div class="col">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="col py-2">
+                            <div class="card radius-15">
+                                <div class="card-body">
+                                    <div class="float-end">Thu, Jan 12th 2019 11:30 AM</div>
+                                    <h4 class="card-title">Day 4 Wrap-up</h4>
+                                    <p>Join us for lunch in Bootsy's cafe across from the Campus Center.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/row-->
                 </div>
             </div>
             <div class="col col-lg-4">
@@ -309,170 +354,6 @@
                                 <div class="ms-auto">210</div>
                             </li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--end row-->
-        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
-            <div class="col d-flex">
-                <div class="card radius-10 w-100">
-                    <div class="card-header">
-                        <div class="d-flex align-items-center">
-                            <div>
-                                <h5 class="mb-0">Browser Statistics</h5>
-                            </div>
-                            <div class="dropdown options ms-auto">
-                                <div class="dropdown-toggle dropdown-toggle-nocaret" data-bs-toggle="dropdown">
-                                    <i class='bx bx-dots-horizontal-rounded'></i>
-                                </div>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="javascript:;">Action</a></li>
-                                    <li><a class="dropdown-item" href="javascript:;">Another action</a></li>
-                                    <li><a class="dropdown-item" href="javascript:;">Something else here</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="chart-js-container3">
-                            <canvas id="chart7"></canvas>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col d-flex">
-                <div class="card radius-10 w-100 overflow-hidden">
-                    <div class="card-header">
-                        <div class="d-flex align-items-center">
-                            <div>
-                                <h5 class="mb-0">Device Sessions</h5>
-                            </div>
-                            <div class="dropdown options ms-auto">
-                                <div class="dropdown-toggle dropdown-toggle-nocaret" data-bs-toggle="dropdown">
-                                    <i class='bx bx-dots-horizontal-rounded'></i>
-                                </div>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="javascript:;">Action</a></li>
-                                    <li><a class="dropdown-item" href="javascript:;">Another action</a></li>
-                                    <li><a class="dropdown-item" href="javascript:;">Something else here</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="chart-js-container2">
-                            <canvas id="chart8"></canvas>
-                        </div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center border-top bg-transparent">
-                            Desktop
-                            <span class="badge bg-white text-dark rounded-pill">558</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent">
-                            Mobile
-                            <span class="badge bg-white bg-opacity-50 rounded-pill">204</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent">
-                            Tablet
-                            <span class="badge bg-white bg-opacity-25 rounded-pill">108</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col d-flex">
-                <div class="card radius-10 w-100">
-                    <div class="card-header">
-                        <div class="d-flex align-items-center">
-                            <div>
-                                <h5 class="mb-0">Social Traffic</h5>
-                            </div>
-                            <div class="dropdown options ms-auto">
-                                <div class="dropdown-toggle dropdown-toggle-nocaret" data-bs-toggle="dropdown">
-                                    <i class='bx bx-dots-horizontal-rounded'></i>
-                                </div>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="javascript:;">Action</a></li>
-                                    <li><a class="dropdown-item" href="javascript:;">Another action</a></li>
-                                    <li><a class="dropdown-item" href="javascript:;">Something else here</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="d-flex mt-2 mb-4">
-                            <h2 class="mb-0 font-weight-bold">89,421</h2>
-                            <p class="mb-0 ms-1 font-14 align-self-end">Total Visits</p>
-                        </div>
-                        <div class="progress radius-10" style="height: 10px">
-                            <div class="progress-bar bg-white" role="progressbar" style="width: 35%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-                            <div class="progress-bar bg-white bg-opacity-75" role="progressbar" style="width: 20%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                            <div class="progress-bar bg-white bg-opacity-50" role="progressbar" style="width: 15%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                            <div class="progress-bar bg-white bg-opacity-25" role="progressbar" style="width: 25%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                            <div class="progress-bar bg-light" role="progressbar" style="width: 10%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <div class="table-responsive mt-4">
-                            <table class="table mb-0">
-                                <tbody>
-                                <tr>
-                                    <td class="px-0">
-                                        <div class="d-flex align-items-center">
-                                            <div><i class="bx bxs-checkbox me-2 font-22 text-white"></i>
-                                            </div>
-                                            <div>Facebook</div>
-                                        </div>
-                                    </td>
-                                    <td>46 Visits</td>
-                                    <td class="px-0 text-right">33%</td>
-                                </tr>
-                                <tr>
-                                    <td class="px-0">
-                                        <div class="d-flex align-items-center">
-                                            <div><i class="bx bxs-checkbox me-2 font-22 text-opacity-75"></i>
-                                            </div>
-                                            <div>YouTube</div>
-                                        </div>
-                                    </td>
-                                    <td>12 Visits</td>
-                                    <td class="px-0 text-right">17%</td>
-                                </tr>
-                                <tr>
-                                    <td class="px-0">
-                                        <div class="d-flex align-items-center">
-                                            <div><i class="bx bxs-checkbox me-2 font-22 text-opacity-50"></i>
-                                            </div>
-                                            <div>Linkedin</div>
-                                        </div>
-                                    </td>
-                                    <td>29 Visits</td>
-                                    <td class="px-0 text-right">21%</td>
-                                </tr>
-                                <tr>
-                                    <td class="px-0">
-                                        <div class="d-flex align-items-center">
-                                            <div><i class="bx bxs-checkbox me-2 font-22 text-opacity-25"></i>
-                                            </div>
-                                            <div>Twitter</div>
-                                        </div>
-                                    </td>
-                                    <td>34 Visits</td>
-                                    <td class="px-0 text-right">23%</td>
-                                </tr>
-                                <tr>
-                                    <td class="px-0">
-                                        <div class="d-flex align-items-center">
-                                            <div><i class="bx bxs-checkbox me-2 font-22 text-light-1"></i>
-                                            </div>
-                                            <div>Dribbble</div>
-                                        </div>
-                                    </td>
-                                    <td>28 Visits</td>
-                                    <td class="px-0 text-right">19%</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
                     </div>
                 </div>
             </div>

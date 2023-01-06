@@ -18,10 +18,14 @@
                 <div class="menu-title">Dashboard</div>
             </a>
             <ul>
-                <li> <a href="index.html"><i class="bx bx-right-arrow-alt"></i>overview</a>
+                <li>
+                    <a href="index.html"><i class="bx bx-right-arrow-alt"></i>overview</a>
                 </li>
             </ul>
         </li>
+        
+        <x-User.Sidebar.Profile />
+
         <li class="menu-label">UI Elements</li>
         <li>
             <a href="widgets.html">
