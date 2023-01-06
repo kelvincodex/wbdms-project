@@ -2,7 +2,7 @@
 <html lang="en">
     <x-head></x-head>
     <body class="bg-theme bg-theme9">
-        
+
         @include('sweetalert::alert')
 
         <!--wrapper-->
@@ -37,6 +37,14 @@
 
         {{--script--}}
         <x-script></x-script>
+
+        @yield('scripts')
+
+        <!--app JS-->
+        <script src="{{asset("assets-dash/js/app.js")}}"></script>
+        <script>
+            new PerfectScrollbar('.dashboard-top-countries');
+        </script>
 
     </body>
 

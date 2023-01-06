@@ -13,7 +13,8 @@
     <ul class="metismenu" id="menu">
         <li>
             <a href="javascript:;" class="has-arrow">
-                <div class="parent-icon"><i class='bx bx-home-circle'></i>
+                <div class="parent-icon">
+                    <i class='bx bx-home-circle'></i>
                 </div>
                 <div class="menu-title">Dashboard</div>
             </a>
@@ -23,8 +24,10 @@
                 </li>
             </ul>
         </li>
-        
-        <x-User.Sidebar.Profile />
+
+        <x-User.Sidebar.Profile></x-User.Sidebar.Profile>
+
+        <x-User.Sidebar.Mail></x-User.Sidebar.Mail>
 
         <li class="menu-label">UI Elements</li>
         <li>

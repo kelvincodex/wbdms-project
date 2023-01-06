@@ -12,8 +12,3 @@
 <script src="{{asset("assets-dash/plugins/chartjs/chart.min.js")}}"></script>
 <script src="{{asset("assets-dash/plugins/sparkline-charts/jquery.sparkline.min.js")}}"></script>
 <script src="{{asset("assets-dash/js/dashboard-analytics.js")}}"></script>
-<!--app JS-->
-<script src="{{asset("assets-dash/js/app.js")}}"></script>
-<script>
-    new PerfectScrollbar('.dashboard-top-countries');
-</script>

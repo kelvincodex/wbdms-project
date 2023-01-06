@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Http\Controllers\User;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+class MailController extends Controller
+{
+    public function new()
+    {
+        return view('dashboard.user.mail.new');
+    }
+}

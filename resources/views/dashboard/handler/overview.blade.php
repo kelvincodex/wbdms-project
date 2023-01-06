@@ -7,10 +7,12 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>
-                                <p class="mb-0">Total Users</p>
+                                <p class="mb-0">Total Mails</p>
                                 <h5 class="mb-0">85K</h5>
                             </div>
-                            <div id="chart1"></div>
+                            <div class="parent-icon">
+                                <i class='bx font-50 bx-file'></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -20,10 +22,12 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>
-                                <p class="mb-0">Page Views</p>
+                                <p class="mb-0">Documents</p>
                                 <h5 class="mb-0">42,892</h5>
                             </div>
-                            <div id="chart2"></div>
+                            <div class="parent-icon">
+                                <i class='bx font-50 bx-folder'></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -33,10 +37,12 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>
-                                <p class="mb-0">Session</p>
+                                <p class="mb-0">Reports</p>
                                 <h5 class="mb-0">45K</h5>
                             </div>
-                            <div id="chart3"></div>
+                            <div class="parent-icon">
+                                <i class='bx font-50 bx-folder-open'></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -46,92 +52,11 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>
-                                <p class="mb-0">Bounce Rate</p>
+                                <p class="mb-0">Notifications</p>
                                 <h5 class="mb-0">51.4%</h5>
                             </div>
-                            <div id="chart4"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--end row-->
-        <div class="row">
-            <div class="col-12 col-lg-12 col-xl-12 col-xxl-6 d-flex">
-                <div class="card radius-10 w-100">
-                    <div class="card-body">
-                        <div class="row row-cols-1 row-cols-md-3 row-cols-xl-3 g-3">
-                            <div class="col">
-                                <div class="card radius-10 mb-0 shadow-none border bg-transparent">
-                                    <div class="card-body">
-                                        <div class="text-center">
-                                            <div class="widgets-icons rounded-circle mx-auto bg-light text-white mb-3"><i class="bx bxl-facebook-square"></i>
-                                            </div>
-                                            <h4 class="my-1">84K</h4>
-                                            <p class="mb-0 text-light-70">Facebook Users</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card radius-10 mb-0 shadow-none border bg-transparent">
-                                    <div class="card-body">
-                                        <div class="text-center">
-                                            <div class="widgets-icons rounded-circle mx-auto bg-light text-white mb-3"><i class="bx bxl-twitter"></i>
-                                            </div>
-                                            <h4 class="my-1">34M</h4>
-                                            <p class="mb-0 text-light-70">Twitter Followers</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card radius-10 mb-0 shadow-none border bg-transparent">
-                                    <div class="card-body">
-                                        <div class="text-center">
-                                            <div class="widgets-icons rounded-circle mx-auto bg-light text-white mb-3"><i class="bx bxl-linkedin-square"></i>
-                                            </div>
-                                            <h4 class="my-1">56K</h4>
-                                            <p class="mb-0 text-light-70">Linkedin Followers</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card radius-10 mb-0 shadow-none border bg-transparent">
-                                    <div class="card-body">
-                                        <div class="text-center">
-                                            <div class="widgets-icons rounded-circle mx-auto bg-light text-white mb-3"><i class="bx bxl-youtube"></i>
-                                            </div>
-                                            <h4 class="my-1">38M</h4>
-                                            <p class="mb-0 text-light-70">YouTube Subscribers</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card radius-10 mb-0 shadow-none border bg-transparent">
-                                    <div class="card-body">
-                                        <div class="text-center">
-                                            <div class="widgets-icons rounded-circle mx-auto bg-light text-white mb-3"><i class="bx bxl-dropbox"></i>
-                                            </div>
-                                            <h4 class="my-1">28K</h4>
-                                            <p class="mb-0 text-light-70">Dropbox Users</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card radius-10 mb-0 shadow-none border bg-transparent">
-                                    <div class="card-body">
-                                        <div class="text-center">
-                                            <div class="widgets-icons rounded-circle mx-auto bg-light text-white mb-3"><i class='bx bxl-dribbble'></i>
-                                            </div>
-                                            <h4 class="my-1">49K</h4>
-                                            <p class="mb-0 text-light-70">Dribbble Users</p>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="parent-icon">
+                                <i class='bx font-50 bx-bell'></i>
                             </div>
                         </div>
                     </div>
@@ -354,6 +279,89 @@
                                 <div class="ms-auto">210</div>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end row-->
+        <div class="row">
+            <div class="col-12 col-lg-12 col-xl-12 col-xxl-6 d-flex">
+                <div class="card radius-10 w-100">
+                    <div class="card-body">
+                        <div class="row row-cols-1 row-cols-md-3 row-cols-xl-3 g-3">
+                            <div class="col">
+                                <div class="card radius-10 mb-0 shadow-none border bg-transparent">
+                                    <div class="card-body">
+                                        <div class="text-center">
+                                            <div class="widgets-icons rounded-circle mx-auto bg-light text-white mb-3"><i class="bx bxl-facebook-square"></i>
+                                            </div>
+                                            <h4 class="my-1">84K</h4>
+                                            <p class="mb-0 text-light-70">Facebook Users</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card radius-10 mb-0 shadow-none border bg-transparent">
+                                    <div class="card-body">
+                                        <div class="text-center">
+                                            <div class="widgets-icons rounded-circle mx-auto bg-light text-white mb-3"><i class="bx bxl-twitter"></i>
+                                            </div>
+                                            <h4 class="my-1">34M</h4>
+                                            <p class="mb-0 text-light-70">Twitter Followers</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card radius-10 mb-0 shadow-none border bg-transparent">
+                                    <div class="card-body">
+                                        <div class="text-center">
+                                            <div class="widgets-icons rounded-circle mx-auto bg-light text-white mb-3"><i class="bx bxl-linkedin-square"></i>
+                                            </div>
+                                            <h4 class="my-1">56K</h4>
+                                            <p class="mb-0 text-light-70">Linkedin Followers</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card radius-10 mb-0 shadow-none border bg-transparent">
+                                    <div class="card-body">
+                                        <div class="text-center">
+                                            <div class="widgets-icons rounded-circle mx-auto bg-light text-white mb-3"><i class="bx bxl-youtube"></i>
+                                            </div>
+                                            <h4 class="my-1">38M</h4>
+                                            <p class="mb-0 text-light-70">YouTube Subscribers</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card radius-10 mb-0 shadow-none border bg-transparent">
+                                    <div class="card-body">
+                                        <div class="text-center">
+                                            <div class="widgets-icons rounded-circle mx-auto bg-light text-white mb-3"><i class="bx bxl-dropbox"></i>
+                                            </div>
+                                            <h4 class="my-1">28K</h4>
+                                            <p class="mb-0 text-light-70">Dropbox Users</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card radius-10 mb-0 shadow-none border bg-transparent">
+                                    <div class="card-body">
+                                        <div class="text-center">
+                                            <div class="widgets-icons rounded-circle mx-auto bg-light text-white mb-3"><i class='bx bxl-dribbble'></i>
+                                            </div>
+                                            <h4 class="my-1">49K</h4>
+                                            <p class="mb-0 text-light-70">Dribbble Users</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
