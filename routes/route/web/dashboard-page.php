@@ -11,5 +11,6 @@ Route::controller(\App\Http\Controllers\DashboardPageController::class)->group(f
 Route::prefix('user')->name('user.')->group(function(){
     Route::controller(MailController::class)->prefix('mail')->name('mail.')->group(function(){
         Route::get('/new', 'new')->name('new');
+        Route::get('/list', 'list')->name('list');
     });
 });

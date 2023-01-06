@@ -11,4 +11,9 @@ class MailController extends Controller
     {
         return view('dashboard.user.mail.new');
     }
+
+    public function list()
+    {
+        return view('dashboard.user.mail.index');
+    }
 }
