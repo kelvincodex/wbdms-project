@@ -2,7 +2,7 @@
 @section('content')
 <div class="page-content">
     <div class="row">
-        <div class="col-xl-11 mx-auto">
+        <div class="col-xl-12 mx-auto">
             <div class="card">
                 <div class="card-body">
                     <h6 class="mb-0 text-uppercase">All Mails</h6>

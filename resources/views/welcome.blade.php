@@ -36,7 +36,7 @@
 </head>
 
 <body>
-    <!-- header section start -->
+    {{-- <!-- header section start -->
     <header>
         <nav class="navbar navbar-expand-lg" id="mainNav">
             <div class="container">
@@ -84,10 +84,10 @@
             </div>
         </nav>
     </header>
-    <!-- header section end -->
+    <!-- header section end --> --}}
 
     <!-- hero section start -->
-    <section class="hero bg-img" data-background="{{ asset('open')}}/images/hero/hero-bg.png">
+    <section class="hero bg-img h-full mt-0 pt-5" style="height: 100%; overflow-y: hidden" data-background="{{ asset('open')}}/images/hero/hero-bg.png">
         <div class="container">
             <div class="hero__area">
                 <div class="row d-flex align-items-center">
@@ -99,16 +99,16 @@
                                 From easy file and data management, to open information tracking. Start automating your office day to day task..
                             </p>
                             <div class="hero__content__link wow animate__animated animate__fadeInUp">
-                                <a class="download" href="#">
+                                <a class="download" href="{{ route('register') }}">
                                     Get Started
                                     {{-- <img src="{{ asset('open')}}/images/app-store.png" alt="Apple Store"> --}}
                                 </a>
-                                <a class="rounded-full download" href="#">
+                                <a class="rounded-full download" href="{{ route('login') }}">
                                     Login
                                     {{-- <img src="{{ asset('open')}}/images/play-store.png" alt="Google Play Store"> --}}
                                 </a>
                             </div>
-                            <div class="hero__ratings">
+                            {{-- <div class="hero__ratings">
                                 <div class="hero__ratings__store wow animate__animated animate__fadeInUp">
                                     <h2>4.5/5</h2>
                                     <div class="hero__ratings__star">
@@ -132,7 +132,7 @@
                                     </div>
                                     <p>On the iOS App Store</p>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
     </section>
     <!-- hero section end -->
 
-    <!-- client slider start -->
+    {{-- <!-- client slider start -->
     <div class="client">
         <div class="container">
             <div class="client__wrapper wow animate__animated animate__fadeInUp">
@@ -761,7 +761,7 @@
             </div>
         </div>
     </footer>
-    <!-- footer end -->
+    <!-- footer end --> --}}
 
     <!-- Scroll To Top -->
     <a href="javascript:void(0)" class="scrollToTop">
